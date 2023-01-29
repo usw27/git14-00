@@ -19,7 +19,7 @@ ul{
 .logo{
     font-size: 30px;
     text-transform: uppercase;
-    color: beige;
+    color: white;
 }
 .header__nav{
     background: rgb(27, 112, 115);
@@ -36,7 +36,7 @@ ul{
 }
 .header__nav-link{
     font-size: 20px;
-    color: rgb(0, 98, 0);
+    color: black;
     text-transform: uppercase;
 }
 .header__content{
@@ -62,4 +62,17 @@ h1{
     height: 50px;
     background: rgb(5, 95, 98);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.main {
+   background: rgb(27, 112, 115);
+    height: 100vh;
+}
+.main__item{
+    width: 25%;
+    background: white;
+    height: 500px;
+}
+.main__block{
+    display: flex;
+    gap: 10px;
 }
